@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: share-system
+  description: Manages all share-related APIs and services
+spec:
+  owner: team-a
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ldap-auth-system
+  description: LDAP authentication and user provisioning system
+spec:
+  owner: system-development-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: middleware-system
+  title: Middleware System
+  description: >
+    A centralized service layer responsible for handling communication, data transformation,
+    and integration between different applications or microservices.
+    It ensures smooth data flow, protocol translation, and secure message exchange.
+  tags:
+    - integration
+    - middleware
+    - platform
+spec:
+  owner: system-development-team
