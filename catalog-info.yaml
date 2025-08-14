@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstagetest-main-bundle
+  description: Bundle of Backstage entities in this repo
+spec:
+  type: url
+  targets:
+    - ./groups.yaml
+    - ./team-a-group.yaml
+    - ./platform-team.yaml
+    - ./system.yaml
+    - ./openapi.yaml
+    - ./share-transfer-api.yaml
+    - ./Middleware_System/AccountInq/AccountInq.yaml
+    - ./Middleware_System/Cust_Phone_Number/getCustPhoneNo.yaml
+    - ./share-holder-info-api/share-holder-info-api.yaml
